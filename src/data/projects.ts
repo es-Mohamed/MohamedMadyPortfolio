@@ -13,13 +13,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "puddle",
-    title: "Puddle — E-commerce Platform",
+    title: "inventorysystem-local",
     period: "Apr 2025 – May 2025",
     description: "A fully functional Django-based e-commerce platform with user accounts, product management, shopping cart, and admin tools.",
-    technologies: ["Django", "Python", "PostgreSQL", "HTML", "CSS"],
+    technologies: ["Django", "Python", "SQLite", "HTML", "tailwindcss", "typeScript"],
     image: "/images/image_one.png",
-    github: "https://github.com/es-Mohamed/E-commerce-Platform",
-    demo: "https://example.com/puddle",
+    github: "https://github.com/es-Mohamed/premium-inventory-pos",
+    demo: "https://inventorysystem-lime.vercel.app/",
   },
   {
     id: "data-analysis",
