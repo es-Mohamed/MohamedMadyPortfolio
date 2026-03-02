@@ -28,8 +28,8 @@ export const projects: Project[] = [
     description: "Data analysis project on engineering datasets for pattern recognition and optimization.",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib"],
     image: "/images/image_four.png",
-    github: "https://github.com/ahamedmady/data-analysis",
-    demo: "https://example.com/data-analysis",
+    github: "https://github.com/es-Mohamed/khoutwa-luxury-boutique",
+    demo: "https://khoutwa.vercel.app/",
   },
   {
     id: "process-simulation",
@@ -38,8 +38,8 @@ export const projects: Project[] = [
     description: "Simulation of chemical systems using engineering principles and data methods.",
     technologies: ["Python", "Chemical Engineering", "Data Analysis"],
     image: "/images/image_three.png",
-    github: "https://github.com/ahamedmady/process-simulation",
-    demo: "https://example.com/process-simulation",
+    github: "https://github.com/es-Mohamed/ecommerce-sales-etl-pipeline",
+    // demo: "https://example.com/process-simulation",
   },
   {
     id: "js-projects",
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     description: "Interactive components built for practice and UI development.",
     technologies: ["JavaScript", "HTML", "CSS", "DOM Manipulation"],
     image: "/images/image_two.png",
-    github: "https://github.com/es-Mohamed/project_Html_and_Css",
-    demo: "https://example.com/js-projects",
+    github: "https://github.com/es-Mohamed/E-commerce-Platform",
+    // demo: "https://example.com/js-projects",
   },
 ];
