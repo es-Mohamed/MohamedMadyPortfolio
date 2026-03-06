@@ -1,31 +1,31 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Wrench, Beaker, Languages } from "lucide-react";
+import { Code2, Wrench, Beaker, Languages, Server, Database } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Software Development",
-    icon: Code2,
-    skills: ["Python", "Django", "Flask", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
+    title: "Backend Development",
+    icon: Server,
+    skills: ["Python", "Django", "RESTful APIs", "Flask", "Celery", "Redis", "JavaScript"],
     color: "primary",
   },
   {
-    title: "Tools",
-    icon: Wrench,
-    skills: ["Git", "GitHub", "Linux", "Microsoft Office", "Docker"],
-    color: "secondary",
-  },
-  {
-    title: "Engineering & Data",
-    icon: Beaker,
-    skills: ["Data Analysis", "Chemical Engineering", "Chemical Process Simulation"],
+    title: "Data Engineering & DB",
+    icon: Database,
+    skills: ["PostgreSQL", "Apache Airflow", "Pandas", "ETL Pipelines", "MySQL", "Data Automation"],
     color: "accent",
   },
   {
-    title: "Languages",
+    ttitle: "DevOps & Infrastructure",
+    icon: Wrench,
+    skills: ["Docker", "Linux", "Git & GitHub", "AWS (EC2, RDS, S3)", "CI/CD"],
+    color: "secondary",
+  },
+  {
+    title: "Domain Knowledge & Languages",
     icon: Languages,
-    skills: ["Arabic (Native)", "English (Professional)"],
+    skills: ["Chemical Engineering Logic", "Analytical Thinking", "English (Fluent)", "Arabic (Native)"],
     color: "primary",
   },
 ];

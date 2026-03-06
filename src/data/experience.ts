@@ -8,17 +8,17 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    id: "backend-intern",
-    title: "Backend Developer Intern",
-    company: "[Placeholder Company]",
-    period: "Jan 2025 – Present",
-    description: "Worked on backend API development, database optimization, debugging, and building logic for scalable engineering-related applications.",
+    id: "backend-developer",
+    title: "Backend Developer",
+    company: "Faster (Auto Parts E-Commerce)",
+    period: "Jan 2024 – Present", 
+    description: "Spearheaded the backend development of a scalable e-commerce platform using Python and Django. Designed RESTful APIs, optimized PostgreSQL databases, and developed automated data pipelines to extract and analyze business metrics.",
   },
   {
-    id: "chem-trainee",
-    title: "Chemical Engineering Trainee",
-    company: "[Placeholder Plant/Factory]",
+    id: "chem-data-analyst",
+    title: "Process Engineering Trainee",
+    company: "GUPCO - Gulf of Suez Petroleum",
     period: "Jul 2024 – Sep 2024",
-    description: "Performed chemical process simulation tasks, helped analyze industrial data logs, and supported workflow improvements.",
-  },
+    description: "Analyzed large sets of industrial data logs to optimize chemical processes. Applied strong analytical problem-solving to simulate workflows, identify bottlenecks, and propose data-driven efficiency improvements.",
+  }
 ];

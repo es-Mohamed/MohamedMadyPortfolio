@@ -35,10 +35,10 @@ export const Contact = () => {
 
     try {
       await emailjs.send(
-        'service_37h5in8',
-        'template_uyl0t2f',
+        'service_ju19a6c',
+        'template_wdhlv5p',
         templateParams,
-        'W_f9WI3IQhbiSWhKK'
+        'TUK2uZViKux04it4i'
       );
 
       toast({
@@ -112,8 +112,8 @@ export const Contact = () => {
               <div>
                 <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
                 <p className="text-muted-foreground mb-8">
-                  I'm always open to discussing new projects, opportunities, or
-                  partnerships. Feel free to reach out!
+                  I'm always open to discussing new engineering challenges, 
+                  full-time opportunities, or tech collaborations. Feel free to reach out!
                 </p>
               </div>
 
@@ -134,7 +134,7 @@ export const Contact = () => {
                 </motion.div>
 
                 <motion.a
-                  href="mailto:madm46152@gmail.com"
+                  href="mailto:mohamedmady.software@gmail.com"
                   className="flex items-center gap-4 p-4 bg-card/50 backdrop-blur-sm border border-border rounded-xl hover:border-primary/50 transition-all block"
                   whileHover={{ scale: 1.02 }}
                 >
@@ -144,7 +144,7 @@ export const Contact = () => {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-sm text-muted-foreground">
-                      contact@mohamedmady.com
+                      mohamedmady.software@gmail.com
                     </p>
                   </div>
                 </motion.a>

@@ -77,23 +77,26 @@ export const About = () => {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  I'm a Chemical Engineering student with a growing passion for backend
-                  development and data-driven technologies. I work with Python, Django,
-                  Flask, HTML, CSS, and JavaScript, and I'm expanding into data analysis
-                  to apply it within industrial and chemical engineering applications.
+                  I am a Backend Developer and Data Engineer who merges the analytical 
+                  rigor of Chemical Engineering with modern software development. 
+                  With over two years of hands-on experience, I specialize in building 
+                  intelligent, scalable systems and data-driven architectures that solve 
+                  complex business challenges.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  My engineering background gives me a strong analytical foundation, while
-                  software development gives me the ability to transform ideas into
-                  scalable tech solutions. I aim to merge both fields by creating smart
-                  systems that automate processes, enhance efficiency, and support
-                  data-driven decision-making in engineering environments.
+                  My engineering background provides me with a strong foundation 
+                  in problem-solving and process optimization. I leverage this mindset 
+                  to design efficient RESTful APIs, orchestrate automated data pipelines, 
+                  and develop secure e-commerce platforms. My core tech stack includes Python, 
+                  Django, PostgreSQL, and Apache Airflow, and I am continuously expanding my 
+                  expertise in cloud infrastructure and background task processing.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  I'm currently looking for an internship where I can apply my skills and
-                  grow in roles that combine programming, engineering, and data.
+                  I am currently open to full-time and remote opportunities where I 
+                  can apply my backend architecture skills to build robust software 
+                  products and drive technical excellence.
                 </p>
 
                 {/* Decorative elements */}

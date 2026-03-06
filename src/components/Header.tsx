@@ -75,12 +75,12 @@ export const Header = () => {
           {/* Logo */}
           <motion.a
             href="#home"
-            className="text-2xl font-bold text-gradient-cyan-orange"
+            className="text-2xl font-bold text-gradient-cyan-orange tracking-wider"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            {"<M.M />"}
+            {"<M.Mady />"}
           </motion.a>
 
           {/* Right Side - Navigation + Theme Toggle + Mobile Menu */}

@@ -26,7 +26,7 @@ export const Hero = () => {
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
                 Mohamed Mady
               </h1>
-              <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gradient-cyan-orange mb-4">
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gradient-cyan-orange mb-2">
                 Backend Developer (Python) & Chemical Engineer
               </h3>
             </motion.div>
@@ -35,10 +35,8 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed"
-            >
-              I merge chemical engineering logic with backend development to build
-              intelligent, scalable, and data-driven systems.
+              className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+              I apply the analytical rigor of Chemical Engineering to design scalable Backend Architectures and automated Data Pipelines.
             </motion.p>
 
             <motion.p
@@ -47,9 +45,9 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="text-base md:text-lg text-muted-foreground max-w-2xl"
             >
-              I build backend systems using Python, Django, and Flask, and develop
-              engineering-focused software solutions that optimize, automate, and
-              analyze industrial workflows.
+              I build robust backend systems using Python, Django, and Flask, 
+              and design automated data pipelines that optimize complex business 
+              workflows and turn raw data into actionable insights.
             </motion.p>
 
             <motion.div
