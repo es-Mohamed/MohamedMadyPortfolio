@@ -134,7 +134,7 @@ export const Contact = () => {
                 </motion.div>
 
                 <motion.a
-                  href="mailto:mohamedmady.software@gmail.com"
+                  href="mailto:contact@mohamedmady.me"
                   className="flex items-center gap-4 p-4 bg-card/50 backdrop-blur-sm border border-border rounded-xl hover:border-primary/50 transition-all block"
                   whileHover={{ scale: 1.02 }}
                 >
@@ -144,7 +144,7 @@ export const Contact = () => {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-sm text-muted-foreground">
-                      mohamedmady.software@gmail.com
+                      contact@mohamedmady.me
                     </p>
                   </div>
                 </motion.a>
