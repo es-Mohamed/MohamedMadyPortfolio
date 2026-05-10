@@ -42,9 +42,7 @@ export const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@mohamedmady.me"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:contact@mohamedmady.me"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >
